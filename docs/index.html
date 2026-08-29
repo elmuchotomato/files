@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swiss labour tracker — unemployment and benefit exhaustion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EDEEF0; --card:#F7F8F9; --ink:#16191D; --muted:#6E757E;
+  --rule:#C9CDD3; --blue:#2F5D8C; --oxblood:#8A2846; --focus:#2F5D8C;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:15px; line-height:1.5;
+}
+.wrap{max-width:1040px;margin:0 auto;padding:28px 18px 72px}
+
+/* --- masthead --- */
+header{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:26px}
+h1{
+  font-family:"IBM Plex Sans Condensed",sans-serif; font-weight:700;
+  font-size:clamp(30px,7vw,52px); line-height:1.02; letter-spacing:-.015em; margin:0 0 8px;
+}
+h1 em{font-style:normal;color:var(--oxblood)}
+.meta{
+  font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted);
+  text-transform:uppercase; letter-spacing:.09em;
+  display:flex; flex-wrap:wrap; gap:6px 18px;
+}
+
+/* --- sections --- */
+section{margin-top:38px}
+h2{
+  font-family:"IBM Plex Sans Condensed",sans-serif; font-weight:600;
+  font-size:19px; margin:0 0 3px; letter-spacing:.005em;
+}
+.sub{color:var(--muted);font-size:13.5px;margin:0 0 16px;max-width:62ch}
+
+.panel{background:var(--card);border:1px solid var(--rule);padding:18px 16px 12px}
+
+/* --- readout --- */
+.readout{display:flex;flex-wrap:wrap;gap:26px;margin-bottom:18px}
+.stat .k{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.09em;display:block;margin-bottom:2px;
+}
+.stat .v{
+  font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;
+  font-size:30px;font-variant-numeric:tabular-nums;line-height:1;
+}
+.stat.alt .v{color:var(--oxblood)}
+
+svg{display:block;width:100%;height:auto;overflow:visible}
+.grid line{stroke:var(--rule);stroke-width:1}
+.axis{font-family:"IBM Plex Mono",monospace;font-size:9.5px;fill:var(--muted)}
+.ser{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+
+.legend{
+  display:flex;gap:18px;flex-wrap:wrap;margin-top:10px;
+  font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);
+}
+.legend span::before{
+  content:"";display:inline-block;width:15px;height:2px;
+  vertical-align:middle;margin-right:6px;background:currentColor;
+}
+.legend .b{color:var(--blue)} .legend .o{color:var(--oxblood)}
+
+/* --- canton strip (the scan view) --- */
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+button.sort{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;
+  text-transform:uppercase;background:transparent;color:var(--muted);
+  border:1px solid var(--rule);padding:6px 11px;cursor:pointer;
+}
+button.sort[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+button.sort:focus-visible,.cell:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+.strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.cell{
+  background:var(--card);padding:9px 10px 6px;border:0;text-align:left;
+  cursor:pointer;font:inherit;display:block;width:100%;
+}
+.cell:hover{background:#fff}
+.cell .code{
+  font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;font-size:14px;
+  display:flex;justify-content:space-between;align-items:baseline;
+}
+.cell .rate{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--blue);font-variant-numeric:tabular-nums}
+.cell .nm{font-size:10.5px;color:var(--muted);margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cell.on{background:var(--ink)}
+.cell.on .code,.cell.on .nm{color:var(--paper)}
+.cell.on .rate{color:#9FC2E4}
+
+/* --- empty state --- */
+.empty{border:1px dashed var(--rule);padding:22px 18px;background:var(--card)}
+.empty h3{font-family:"IBM Plex Sans Condensed",sans-serif;font-size:17px;margin:0 0 8px}
+.empty code{font-family:"IBM Plex Mono",monospace;font-size:12.5px;background:var(--paper);padding:2px 5px;border:1px solid var(--rule)}
+.empty ol{margin:10px 0 0;padding-left:20px} .empty li{margin-bottom:7px}
+
+footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--rule);color:var(--muted);font-size:12px}
+.hide{display:none}
+@media (prefers-reduced-motion:no-preference){
+  .ser{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw .9s ease-out forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Registered unemployment<br>and <em>benefit exhaustion</em></h1>
+  <div class="meta">
+    <span>SECO · Die Lage auf dem Arbeitsmarkt</span>
+    <span id="stamp">loading</span>
+  </div>
+</header>
+
+<div id="empty" class="empty hide">
+  <h3>No data file yet</h3>
+  <p class="sub">The dashboard reads <code>labour.json</code> from this folder. The fetcher writes it.</p>
+  <ol>
+    <li>Calibrate the parser once: <code>python fetch_seco.py --debug 2026-04</code></li>
+    <li>Pull the history: <code>python fetch_seco.py --months 36</code></li>
+    <li>Copy it here: <code>cp data/labour.json docs/labour.json</code></li>
+  </ol>
+</div>
+
+<div id="app" class="hide">
+
+  <section>
+    <h2>National trend</h2>
+    <p class="sub">Registered unemployed against Aussteuerungen — people whose ALV entitlement ran out that month — shown as a share of the unemployed stock.</p>
+    <div class="panel">
+      <div class="readout" id="readout"></div>
+      <svg id="natchart" viewBox="0 0 720 260" role="img" aria-label="National unemployment and exhaustion trend"></svg>
+      <div class="legend">
+        <span class="b">Registered unemployed</span>
+        <span class="o">Aussteuerungen, % of unemployed</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>All 26 cantons</h2>
+    <p class="sub">Every canton at once. Tap one to plot its unemployment rate against the national line.</p>
+    <div class="controls">
+      <button class="sort" data-sort="code" aria-pressed="true">Alphabetical</button>
+      <button class="sort" data-sort="rate" aria-pressed="false">Highest rate</button>
+      <button class="sort" data-sort="delta" aria-pressed="false">Fastest rising</button>
+    </div>
+    <div class="strip" id="strip"></div>
+    <div class="panel" id="cantonpanel" style="margin-top:16px" hidden>
+      <div class="readout" id="cantonreadout"></div>
+      <svg id="cantonchart" viewBox="0 0 720 200" role="img" aria-label="Selected canton trend"></svg>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  Source: State Secretariat for Economic Affairs (SECO), monthly labour market bulletin.
+  Aussteuerungen are published nationally, not per canton, so the exhaustion share is a national figure.
+</footer>
+</div>
+
+<script>
+const NS="http://www.w3.org/2000/svg";
+const el=(n,a={})=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e;};
+const fmt=n=>n==null?"—":n.toLocaleString("de-CH");
+const label=p=>{const[y,m]=p.split("-");return m+"/"+y.slice(2);};
+
+let DATA=null, sortMode="code", picked=null;
+
+fetch("labour.json",{cache:"no-store"})
+  .then(r=>r.ok?r.json():Promise.reject())
+  .then(d=>{DATA=d;boot();})
+  .catch(()=>{document.getElementById("empty").classList.remove("hide");
+              document.getElementById("stamp").textContent="no data";});
+
+function boot(){
+  document.getElementById("app").classList.remove("hide");
+  const n=DATA.national.filter(r=>r.unemployed);
+  document.getElementById("stamp").textContent =
+    n.length ? "through "+label(n[n.length-1].period) : "no periods";
+  drawNational(n);
+  drawStrip();
+}
+
+function series(rows,pick){return rows.map(r=>pick(r));}
+
+function line(svg,vals,periods,color,pad,scale){
+  const{W,H}=pad, ok=vals.map((v,i)=>[i,v]).filter(p=>p[1]!=null);
+  if(ok.length<2)return;
+  const xs=i=>pad.l+(i/(vals.length-1))*(W-pad.l-pad.r);
+  const ys=v=>H-pad.b-((v-scale.min)/(scale.max-scale.min||1))*(H-pad.t-pad.b);
+  const d=ok.map((p,k)=>(k?"L":"M")+xs(p[0]).toFixed(1)+" "+ys(p[1]).toFixed(1)).join(" ");
+  svg.appendChild(el("path",{d,class:"ser",stroke:color}));
+}
+
+function frame(svg,W,H,pad,periods){
+  svg.innerHTML="";
+  const g=el("g",{class:"grid"});
+  for(let i=0;i<=3;i++){
+    const y=pad.t+i*((H-pad.t-pad.b)/3);
+    g.appendChild(el("line",{x1:pad.l,x2:W-pad.r,y1:y,y2:y}));
+  }
+  svg.appendChild(g);
+  const step=Math.max(1,Math.ceil(periods.length/6));
+  periods.forEach((p,i)=>{
+    if(i%step&&i!==periods.length-1)return;
+    const x=pad.l+(i/(periods.length-1||1))*(W-pad.l-pad.r);
+    const t=el("text",{x,y:H-pad.b+15,class:"axis","text-anchor":"middle"});
+    t.textContent=label(p); svg.appendChild(t);
+  });
+}
+
+function bounds(v){const a=v.filter(x=>x!=null);const mn=Math.min(...a),mx=Math.max(...a);
+  const pad=(mx-mn)*0.15||1;return{min:mn-pad,max:mx+pad};}
+
+function drawNational(rows){
+  const svg=document.getElementById("natchart"),W=720,H=260,pad={l:8,r:8,t:14,b:26,W,H};
+  const periods=rows.map(r=>r.period);
+  const un=series(rows,r=>r.unemployed);
+  const sh=series(rows,r=>r.aussteuerungen&&r.unemployed?+(r.aussteuerungen/r.unemployed*100).toFixed(2):null);
+  frame(svg,W,H,pad,periods);
+  line(svg,un,periods,getComputedStyle(document.body).getPropertyValue("--blue"),pad,bounds(un));
+  if(sh.some(x=>x!=null))
+    line(svg,sh,periods,getComputedStyle(document.body).getPropertyValue("--oxblood"),pad,bounds(sh));
+
+  const last=rows[rows.length-1]||{};
+  const share=last.aussteuerungen&&last.unemployed
+    ?(last.aussteuerungen/last.unemployed*100).toFixed(2)+"%":"—";
+  document.getElementById("readout").innerHTML=`
+    <div class="stat"><span class="k">Unemployed</span><span class="v">${fmt(last.unemployed)}</span></div>
+    <div class="stat"><span class="k">Rate</span><span class="v">${last.rate!=null?last.rate.toFixed(1)+"%":"—"}</span></div>
+    <div class="stat alt"><span class="k">Aussteuerungen</span><span class="v">${fmt(last.aussteuerungen)}</span></div>
+    <div class="stat alt"><span class="k">Share of unemployed</span><span class="v">${share}</span></div>`;
+}
+
+function latest(c){for(let i=c.months.length-1;i>=0;i--)if(c.months[i].rate!=null)return c.months[i];return null;}
+function delta(c){const m=c.months.filter(x=>x.rate!=null);
+  return m.length>1?m[m.length-1].rate-m[0].rate:0;}
+
+function drawStrip(){
+  const strip=document.getElementById("strip");
+  const list=[...DATA.cantons];
+  if(sortMode==="rate")list.sort((a,b)=>((latest(b)||{}).rate||0)-((latest(a)||{}).rate||0));
+  else if(sortMode==="delta")list.sort((a,b)=>delta(b)-delta(a));
+  else list.sort((a,b)=>a.code.localeCompare(b.code));
+
+  strip.innerHTML="";
+  list.forEach(c=>{
+    const l=latest(c);
+    const b=document.createElement("button");
+    b.className="cell"+(picked===c.code?" on":"");
+    b.innerHTML=`<span class="code">${c.code}<span class="rate">${l&&l.rate!=null?l.rate.toFixed(1)+"%":"—"}</span></span>
+                 <span class="nm">${c.name}</span>`;
+    b.appendChild(spark(c));
+    b.onclick=()=>{picked=picked===c.code?null:c.code;drawStrip();drawCanton();};
+    strip.appendChild(b);
+  });
+}
+
+function spark(c){
+  const W=100,H=24,svg=el("svg",{viewBox:`0 0 ${W} ${H}`});
+  const v=c.months.map(m=>m.rate);
+  const ok=v.filter(x=>x!=null);
+  if(ok.length>1){
+    const mn=Math.min(...ok),mx=Math.max(...ok),r=(mx-mn)||1;
+    const d=v.map((x,i)=>x==null?null:[(i/(v.length-1))*W,H-2-((x-mn)/r)*(H-4)])
+             .filter(Boolean).map((p,k)=>(k?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" ");
+    svg.appendChild(el("path",{d,fill:"none",stroke:picked===c.code?"#9FC2E4":"var(--blue)","stroke-width":1.4}));
+  }
+  return svg;
+}
+
+function drawCanton(){
+  const panel=document.getElementById("cantonpanel");
+  if(!picked){panel.hidden=true;return;}
+  panel.hidden=false;
+  const c=DATA.cantons.find(x=>x.code===picked);
+  const rows=c.months.filter(m=>m.rate!=null);
+  const svg=document.getElementById("cantonchart"),W=720,H=200,pad={l:8,r:8,t:14,b:26,W,H};
+  const periods=rows.map(r=>r.period), rate=rows.map(r=>r.rate);
+  const natMap={};DATA.national.forEach(r=>{if(r.rate!=null)natMap[r.period]=r.rate;});
+  const nat=periods.map(p=>natMap[p]??null);
+  frame(svg,W,H,pad,periods);
+  const all=[...rate,...nat.filter(x=>x!=null)], sc=bounds(all);
+  if(nat.some(x=>x!=null))line(svg,nat,periods,"var(--muted)",pad,sc);
+  line(svg,rate,periods,"var(--oxblood)",pad,sc);
+  const l=rows[rows.length-1]||{};
+  document.getElementById("cantonreadout").innerHTML=`
+    <div class="stat"><span class="k">${c.name}</span><span class="v">${l.rate!=null?l.rate.toFixed(1)+"%":"—"}</span></div>
+    <div class="stat"><span class="k">Unemployed</span><span class="v">${fmt(l.unemployed)}</span></div>
+    <div class="stat"><span class="k">Change over window</span><span class="v">${(delta(c)>=0?"+":"")+delta(c).toFixed(1)}pp</span></div>`;
+}
+
+document.querySelectorAll("button.sort").forEach(b=>{
+  b.onclick=()=>{
+    sortMode=b.dataset.sort;
+    document.querySelectorAll("button.sort").forEach(x=>x.setAttribute("aria-pressed",x===b));
+    drawStrip();
+  };
+});
+</script>
+</body>
+</html>

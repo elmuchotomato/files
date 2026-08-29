@@ -1,0 +1,2749 @@
+{
+  "generated_at": "2026-08-29",
+  "source": "SECO, Die Lage auf dem Arbeitsmarkt (amstat.ch)",
+  "notes": "Aussteuerungen are national only in this bulletin.",
+  "national": [
+    {
+      "period": "2025-01",
+      "unemployed": 135773,
+      "rate": 3.0,
+      "aussteuerungen": 2626
+    },
+    {
+      "period": "2025-02",
+      "unemployed": 135446,
+      "rate": 2.9,
+      "aussteuerungen": 2230
+    },
+    {
+      "period": "2025-03",
+      "unemployed": 132569,
+      "rate": 2.9,
+      "aussteuerungen": 3309
+    },
+    {
+      "period": "2025-04",
+      "unemployed": 130101,
+      "rate": 2.8,
+      "aussteuerungen": 2587
+    },
+    {
+      "period": "2025-05",
+      "unemployed": 127944,
+      "rate": 2.8,
+      "aussteuerungen": 2248
+    },
+    {
+      "period": "2025-06",
+      "unemployed": 126877,
+      "rate": 2.7,
+      "aussteuerungen": 3136
+    },
+    {
+      "period": "2025-07",
+      "unemployed": 129154,
+      "rate": 2.7,
+      "aussteuerungen": 3037
+    },
+    {
+      "period": "2025-08",
+      "unemployed": 132105,
+      "rate": 2.8,
+      "aussteuerungen": 2519
+    },
+    {
+      "period": "2025-09",
+      "unemployed": 133233,
+      "rate": 2.8,
+      "aussteuerungen": 3495
+    },
+    {
+      "period": "2025-10",
+      "unemployed": 135212,
+      "rate": 2.9,
+      "aussteuerungen": 3008
+    },
+    {
+      "period": "2025-11",
+      "unemployed": 138860,
+      "rate": 2.9,
+      "aussteuerungen": 2465
+    },
+    {
+      "period": "2025-12",
+      "unemployed": 147275,
+      "rate": 3.1,
+      "aussteuerungen": 3256
+    },
+    {
+      "period": "2026-01",
+      "unemployed": 152280,
+      "rate": 3.2,
+      "aussteuerungen": 2832
+    },
+    {
+      "period": "2026-02",
+      "unemployed": 151076,
+      "rate": 3.2,
+      "aussteuerungen": 3085
+    },
+    {
+      "period": "2026-03",
+      "unemployed": 146255,
+      "rate": 3.1,
+      "aussteuerungen": 2567
+    },
+    {
+      "period": "2026-04",
+      "unemployed": 142902,
+      "rate": 3.0,
+      "aussteuerungen": 2304
+    },
+    {
+      "period": "2026-05",
+      "unemployed": 140275,
+      "rate": 3.0,
+      "aussteuerungen": 2628
+    },
+    {
+      "period": "2026-06",
+      "unemployed": 137751,
+      "rate": 2.9,
+      "aussteuerungen": 2569
+    },
+    {
+      "period": "2026-07",
+      "unemployed": 139276,
+      "rate": 3.0,
+      "aussteuerungen": 2629
+    }
+  ],
+  "cantons": [
+    {
+      "code": "AG",
+      "name": "Aargau",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 12261,
+          "rate": 3.2
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 12301,
+          "rate": 3.2
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 12359,
+          "rate": 3.3
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 12186,
+          "rate": 3.2
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 12246,
+          "rate": 3.2
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 12189,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 12142,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 12236,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 12147,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 12192,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 12349,
+          "rate": 3.2
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 13192,
+          "rate": 3.4
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 13626,
+          "rate": 3.5
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 13510,
+          "rate": 3.5
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 13134,
+          "rate": 3.4
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 12814,
+          "rate": 3.3
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 12828,
+          "rate": 3.3
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 12574,
+          "rate": 3.2
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 12462,
+          "rate": 3.2
+        }
+      ]
+    },
+    {
+      "code": "AI",
+      "name": "Appenzell Innerrhoden",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 73,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 65,
+          "rate": 0.7
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 67,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 70,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 67,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 78,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 82,
+          "rate": 0.9
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 76,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 75,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 77,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 75,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 83,
+          "rate": 0.9
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 81,
+          "rate": 0.9
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 72,
+          "rate": 0.8
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 62,
+          "rate": 0.7
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 68,
+          "rate": 0.7
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 71,
+          "rate": 0.8
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 69,
+          "rate": 0.7
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 65,
+          "rate": 0.7
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Appenzell Ausserrhoden",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 471,
+          "rate": 1.6
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 479,
+          "rate": 1.6
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 450,
+          "rate": 1.5
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 440,
+          "rate": 1.5
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 429,
+          "rate": 1.4
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 407,
+          "rate": 1.4
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 441,
+          "rate": 1.5
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 468,
+          "rate": 1.6
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 477,
+          "rate": 1.6
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 481,
+          "rate": 1.6
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 509,
+          "rate": 1.7
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 521,
+          "rate": 1.8
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 530,
+          "rate": 1.8
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 521,
+          "rate": 1.8
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 508,
+          "rate": 1.7
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 501,
+          "rate": 1.7
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 482,
+          "rate": 1.6
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 472,
+          "rate": 1.6
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 472,
+          "rate": 1.6
+        }
+      ]
+    },
+    {
+      "code": "BE",
+      "name": "Bern",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 12017,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 12109,
+          "rate": 2.2
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 11881,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 11527,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 11256,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 10949,
+          "rate": 1.9
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 11095,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 11461,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 11609,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 11870,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 12499,
+          "rate": 2.2
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 13041,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 13297,
+          "rate": 2.4
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 13196,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 12826,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 12444,
+          "rate": 2.2
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 12177,
+          "rate": 2.2
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 12119,
+          "rate": 2.1
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 12251,
+          "rate": 2.2
+        }
+      ]
+    },
+    {
+      "code": "BL",
+      "name": "Basel-Landschaft",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 4001,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 4042,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 3996,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 3970,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 3974,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 3913,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 3924,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 4045,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 4159,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 4217,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 4289,
+          "rate": 2.9
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 4527,
+          "rate": 3.0
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 4713,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 4736,
+          "rate": 3.2
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 4633,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 4593,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 4654,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 4492,
+          "rate": 3.0
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 4514,
+          "rate": 3.0
+        }
+      ]
+    },
+    {
+      "code": "BS",
+      "name": "Basel-Stadt",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 4508,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 4447,
+          "rate": 4.4
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 4367,
+          "rate": 4.3
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 4305,
+          "rate": 4.3
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 4289,
+          "rate": 4.2
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 4254,
+          "rate": 4.1
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 4418,
+          "rate": 4.3
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 4430,
+          "rate": 4.3
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 4440,
+          "rate": 4.3
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 4414,
+          "rate": 4.3
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 4554,
+          "rate": 4.4
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 4778,
+          "rate": 4.6
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 4903,
+          "rate": 4.8
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 4875,
+          "rate": 4.7
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 4839,
+          "rate": 4.7
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 4700,
+          "rate": 4.6
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 4691,
+          "rate": 4.5
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 4660,
+          "rate": 4.5
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 4760,
+          "rate": 4.6
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "Freiburg",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 4971,
+          "rate": 2.9
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 4933,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 4836,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 4677,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 4412,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 4301,
+          "rate": 2.4
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 4330,
+          "rate": 2.4
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 4566,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 4536,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 4570,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 4787,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 5286,
+          "rate": 2.9
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 5306,
+          "rate": 2.9
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 5314,
+          "rate": 2.9
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 5152,
+          "rate": 2.8
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 4916,
+          "rate": 2.7
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 4682,
+          "rate": 2.6
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 4539,
+          "rate": 2.5
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 4611,
+          "rate": 2.5
+        }
+      ]
+    },
+    {
+      "code": "GE",
+      "name": "Genf",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 11795,
+          "rate": 4.8
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 11844,
+          "rate": 4.8
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 11608,
+          "rate": 4.7
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 11576,
+          "rate": 4.7
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 11294,
+          "rate": 4.6
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 11388,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 11733,
+          "rate": 4.6
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 11973,
+          "rate": 4.7
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 12335,
+          "rate": 4.9
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 12441,
+          "rate": 4.9
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 12398,
+          "rate": 4.9
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 12724,
+          "rate": 5.0
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 13236,
+          "rate": 5.2
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 13291,
+          "rate": 5.3
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 13035,
+          "rate": 5.2
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 12949,
+          "rate": 5.1
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 12749,
+          "rate": 5.0
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 12731,
+          "rate": 5.0
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 12876,
+          "rate": 5.1
+        }
+      ]
+    },
+    {
+      "code": "GL",
+      "name": "Glarus",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 343,
+          "rate": 1.6
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 337,
+          "rate": 1.5
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 318,
+          "rate": 1.5
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 333,
+          "rate": 1.5
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 340,
+          "rate": 1.6
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 376,
+          "rate": 1.7
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 381,
+          "rate": 1.7
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 381,
+          "rate": 1.7
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 392,
+          "rate": 1.8
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 394,
+          "rate": 1.8
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 397,
+          "rate": 1.8
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 429,
+          "rate": 2.0
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 458,
+          "rate": 2.1
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 468,
+          "rate": 2.1
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 437,
+          "rate": 2.0
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 428,
+          "rate": 2.0
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 414,
+          "rate": 1.9
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 353,
+          "rate": 1.6
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 323,
+          "rate": 1.5
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "name": "Graubünden",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 1542,
+          "rate": 1.4
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 1335,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 1269,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 1538,
+          "rate": 1.4
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 1414,
+          "rate": 1.3
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 1161,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 1157,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 1139,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 1278,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 1563,
+          "rate": 1.4
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 1620,
+          "rate": 1.5
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 1726,
+          "rate": 1.6
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 1729,
+          "rate": 1.6
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 1622,
+          "rate": 1.5
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 1448,
+          "rate": 1.3
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 1775,
+          "rate": 1.6
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 1531,
+          "rate": 1.4
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 1250,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 1218,
+          "rate": 1.1
+        }
+      ]
+    },
+    {
+      "code": "JU",
+      "name": "Jura",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 1804,
+          "rate": 5.0
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 1838,
+          "rate": 5.1
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 1795,
+          "rate": 4.9
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 1734,
+          "rate": 4.8
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 1742,
+          "rate": 4.8
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 1781,
+          "rate": 5.0
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 1852,
+          "rate": 5.2
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 1814,
+          "rate": 5.1
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 1804,
+          "rate": 5.0
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 1807,
+          "rate": 5.0
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 1817,
+          "rate": 5.1
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 1895,
+          "rate": 5.3
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 2157,
+          "rate": 5.5
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 2118,
+          "rate": 5.4
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 1929,
+          "rate": 4.9
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 1827,
+          "rate": 4.7
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 1745,
+          "rate": 4.5
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 1695,
+          "rate": 4.3
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 1656,
+          "rate": 4.2
+        }
+      ]
+    },
+    {
+      "code": "LU",
+      "name": "Luzern",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 4571,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 4688,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 4636,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 4555,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 4469,
+          "rate": 1.9
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 4496,
+          "rate": 1.9
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 4574,
+          "rate": 1.9
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 4725,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 4718,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 4748,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 4872,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 5217,
+          "rate": 2.2
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 5371,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 5326,
+          "rate": 2.2
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 5145,
+          "rate": 2.2
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 4995,
+          "rate": 2.1
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 4889,
+          "rate": 2.1
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 4812,
+          "rate": 2.0
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 4814,
+          "rate": 2.0
+        }
+      ]
+    },
+    {
+      "code": "NE",
+      "name": "Neuenburg",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 4003,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 4103,
+          "rate": 4.6
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 4036,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 3948,
+          "rate": 4.4
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 3966,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 3933,
+          "rate": 4.3
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 4058,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 4167,
+          "rate": 4.6
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 4144,
+          "rate": 4.6
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 4170,
+          "rate": 4.6
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 4194,
+          "rate": 4.6
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 4367,
+          "rate": 4.8
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 4371,
+          "rate": 4.8
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 4317,
+          "rate": 4.8
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 4139,
+          "rate": 4.6
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 4043,
+          "rate": 4.5
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 3924,
+          "rate": 4.3
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 3851,
+          "rate": 4.3
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 3905,
+          "rate": 4.3
+        }
+      ]
+    },
+    {
+      "code": "NW",
+      "name": "Nidwalden",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 283,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 292,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 313,
+          "rate": 1.3
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 312,
+          "rate": 1.3
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 274,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 283,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 263,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 261,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 267,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 271,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 323,
+          "rate": 1.3
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 333,
+          "rate": 1.3
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 332,
+          "rate": 1.3
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 339,
+          "rate": 1.4
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 331,
+          "rate": 1.3
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 308,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 303,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 297,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 295,
+          "rate": 1.2
+        }
+      ]
+    },
+    {
+      "code": "OW",
+      "name": "Obwalden",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 206,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 209,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 202,
+          "rate": 0.9
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 196,
+          "rate": 0.9
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 200,
+          "rate": 0.9
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 194,
+          "rate": 0.9
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 176,
+          "rate": 0.8
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 195,
+          "rate": 0.9
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 195,
+          "rate": 0.9
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 215,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 233,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 243,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 249,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 247,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 245,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 230,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 228,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 232,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 218,
+          "rate": 1.0
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "name": "St. Gallen",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 5876,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 5857,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 5739,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 5557,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 5507,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 5539,
+          "rate": 1.9
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 5683,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 5750,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 5737,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 5776,
+          "rate": 2.0
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 5898,
+          "rate": 2.1
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 6429,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 6643,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 6614,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 6286,
+          "rate": 2.2
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 6042,
+          "rate": 2.1
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 5921,
+          "rate": 2.1
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 5879,
+          "rate": 2.1
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 6019,
+          "rate": 2.1
+        }
+      ]
+    },
+    {
+      "code": "SH",
+      "name": "Schaffhausen",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 1370,
+          "rate": 3.2
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 1388,
+          "rate": 3.2
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 1361,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 1281,
+          "rate": 3.0
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 1253,
+          "rate": 2.9
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 1240,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 1230,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 1265,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 1257,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 1322,
+          "rate": 3.0
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 1366,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 1403,
+          "rate": 3.2
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 1498,
+          "rate": 3.4
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 1487,
+          "rate": 3.3
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 1473,
+          "rate": 3.3
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 1387,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 1369,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 1320,
+          "rate": 3.0
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 1332,
+          "rate": 3.0
+        }
+      ]
+    },
+    {
+      "code": "SO",
+      "name": "Solothurn",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 4633,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 4676,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 4663,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 4510,
+          "rate": 3.0
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 4383,
+          "rate": 2.9
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 4471,
+          "rate": 3.0
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 4531,
+          "rate": 3.0
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 4658,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 4618,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 4594,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 4644,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 4932,
+          "rate": 3.3
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 5213,
+          "rate": 3.5
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 5165,
+          "rate": 3.5
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 4894,
+          "rate": 3.3
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 4698,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 4598,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 4508,
+          "rate": 3.0
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 4560,
+          "rate": 3.1
+        }
+      ]
+    },
+    {
+      "code": "SZ",
+      "name": "Schwyz",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 1068,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 1076,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 1037,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 1009,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 1036,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 1035,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 1054,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 1061,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 1033,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 1104,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 1131,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 1194,
+          "rate": 1.3
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 1204,
+          "rate": 1.3
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 1153,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 1088,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 1054,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 1060,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 1030,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 1063,
+          "rate": 1.1
+        }
+      ]
+    },
+    {
+      "code": "TG",
+      "name": "Thurgau",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 3824,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 3764,
+          "rate": 2.4
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 3690,
+          "rate": 2.4
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 3601,
+          "rate": 2.3
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 3583,
+          "rate": 2.3
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 3591,
+          "rate": 2.3
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 3635,
+          "rate": 2.3
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 3687,
+          "rate": 2.3
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 3652,
+          "rate": 2.3
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 3653,
+          "rate": 2.3
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 3790,
+          "rate": 2.4
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 4105,
+          "rate": 2.6
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 4135,
+          "rate": 2.6
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 4065,
+          "rate": 2.6
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 3844,
+          "rate": 2.4
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 3653,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 3586,
+          "rate": 2.3
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 3480,
+          "rate": 2.2
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 3462,
+          "rate": 2.2
+        }
+      ]
+    },
+    {
+      "code": "TI",
+      "name": "Tessin",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 5431,
+          "rate": 3.3
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 5331,
+          "rate": 3.2
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 4867,
+          "rate": 2.9
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 4473,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 4247,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 4064,
+          "rate": 2.4
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 4214,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 4294,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 4373,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 4552,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 5020,
+          "rate": 3.0
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 5278,
+          "rate": 3.2
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 5525,
+          "rate": 3.3
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 5383,
+          "rate": 3.2
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 5078,
+          "rate": 3.1
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 4728,
+          "rate": 2.8
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 4581,
+          "rate": 2.8
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 4409,
+          "rate": 2.6
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 4582,
+          "rate": 2.8
+        }
+      ]
+    },
+    {
+      "code": "UR",
+      "name": "Uri",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 253,
+          "rate": 1.3
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 241,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 237,
+          "rate": 1.2
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 221,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 199,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 196,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 200,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 189,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 194,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 206,
+          "rate": 1.0
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 214,
+          "rate": 1.1
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 237,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 227,
+          "rate": 1.2
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 215,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 214,
+          "rate": 1.1
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 199,
+          "rate": 1.0
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 195,
+          "rate": 1.0
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 185,
+          "rate": 0.9
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 156,
+          "rate": 0.8
+        }
+      ]
+    },
+    {
+      "code": "VD",
+      "name": "Waadt",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 19526,
+          "rate": 4.7
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 19411,
+          "rate": 4.7
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 18829,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 18565,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 18282,
+          "rate": 4.4
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 18126,
+          "rate": 4.2
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 18317,
+          "rate": 4.3
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 19104,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 19282,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 19210,
+          "rate": 4.5
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 19540,
+          "rate": 4.6
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 20371,
+          "rate": 4.8
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 21059,
+          "rate": 4.9
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 21325,
+          "rate": 5.0
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 20779,
+          "rate": 4.9
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 20529,
+          "rate": 4.8
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 20123,
+          "rate": 4.7
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 19917,
+          "rate": 4.7
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 20262,
+          "rate": 4.7
+        }
+      ]
+    },
+    {
+      "code": "VS",
+      "name": "Wallis",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 6650,
+          "rate": 3.8
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 5961,
+          "rate": 3.4
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 5368,
+          "rate": 3.0
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 5326,
+          "rate": 3.0
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 5177,
+          "rate": 2.9
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 4959,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 5031,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 5140,
+          "rate": 2.8
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 5278,
+          "rate": 2.9
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 5623,
+          "rate": 3.1
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 6008,
+          "rate": 3.3
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 7218,
+          "rate": 3.9
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 7434,
+          "rate": 4.1
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 6862,
+          "rate": 3.8
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 6219,
+          "rate": 3.4
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 6182,
+          "rate": 3.4
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 5907,
+          "rate": 3.2
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 5496,
+          "rate": 3.0
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 5653,
+          "rate": 3.1
+        }
+      ]
+    },
+    {
+      "code": "ZG",
+      "name": "Zug",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 1720,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 1727,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 1804,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 1820,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 1808,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 1817,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 1896,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 1922,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 1889,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 1931,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 1915,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 1999,
+          "rate": 2.8
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 2105,
+          "rate": 2.9
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 2125,
+          "rate": 2.9
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 2067,
+          "rate": 2.8
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 2022,
+          "rate": 2.8
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 2028,
+          "rate": 2.8
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 1968,
+          "rate": 2.7
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 2044,
+          "rate": 2.8
+        }
+      ]
+    },
+    {
+      "code": "ZH",
+      "name": "Zürich",
+      "months": [
+        {
+          "period": "2025-01",
+          "unemployed": 22573,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-02",
+          "unemployed": 22992,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-03",
+          "unemployed": 22841,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-04",
+          "unemployed": 22371,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-05",
+          "unemployed": 22097,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-06",
+          "unemployed": 22136,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-07",
+          "unemployed": 22737,
+          "rate": 2.5
+        },
+        {
+          "period": "2025-08",
+          "unemployed": 23098,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-09",
+          "unemployed": 23344,
+          "rate": 2.6
+        },
+        {
+          "period": "2025-10",
+          "unemployed": 23811,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-11",
+          "unemployed": 24418,
+          "rate": 2.7
+        },
+        {
+          "period": "2025-12",
+          "unemployed": 25747,
+          "rate": 2.9
+        },
+        {
+          "period": "2026-01",
+          "unemployed": 26878,
+          "rate": 3.0
+        },
+        {
+          "period": "2026-02",
+          "unemployed": 26730,
+          "rate": 3.0
+        },
+        {
+          "period": "2026-03",
+          "unemployed": 26450,
+          "rate": 3.0
+        },
+        {
+          "period": "2026-04",
+          "unemployed": 25817,
+          "rate": 2.9
+        },
+        {
+          "period": "2026-05",
+          "unemployed": 25539,
+          "rate": 2.9
+        },
+        {
+          "period": "2026-06",
+          "unemployed": 25413,
+          "rate": 2.8
+        },
+        {
+          "period": "2026-07",
+          "unemployed": 25703,
+          "rate": 2.9
+        }
+      ]
+    }
+  ]
+}
